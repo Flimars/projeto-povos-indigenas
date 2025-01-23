@@ -1,0 +1,25 @@
+.image .btn {
+    background-color: var(--bg-btn);
+    color: var(--text-btn);
+    border: none;
+    border-radius: 2rem;
+    padding: 2rem 3rem;
+    font-size: 2.6rem;
+    font-weight: 800;
+    font-style: italic;
+    cursor: pointer;
+    text-transform: uppercase;    
+}
+
+.section_footer--subescribe .btn {
+    background-color: var(--bg-btn);
+    color: var(--text-btn-dark);
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-style: italic;
+    cursor: pointer;
+    text-transform: uppercase;
+}
