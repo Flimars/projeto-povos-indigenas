@@ -22,4 +22,20 @@
     font-style: italic;
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
 }
+
+.idioma_texto  a {
+    text-decoration: none;   
+}
+
+.idioma_texto a button {
+    border:  none;
+    background-color: transparent;
+    color: var(--text-btn-secundario);
+    font-weight: 700;
+    font-size: 2rem;
+    cursor: pointer;
+    font-style: italic;
+}
+

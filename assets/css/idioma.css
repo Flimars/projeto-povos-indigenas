@@ -1,0 +1,97 @@
+.idioma_container {
+    max-width: 124rem;
+    display: flex;  
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: "Protest Revolution", serif;
+  }
+  
+  .idioma_container--menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .idioma_container--menu .toggle-button #toggle-icon {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem;
+  }
+
+  #toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  h3 {
+    color: var(--text-primaria);
+    font-size: 3rem;
+    font-family: "Protest Revolution", serif;
+  }
+  .idioma_texto {    
+    display: none;
+    margin-top: 2rem;
+    transition: all 0.3s ease;    
+  }
+
+  .idioma_texto--primario {
+    flex: 1;
+    display: flex;
+    padding-top: 2rem;
+    gap: 2rem;
+    margin: 0 3rem;
+  }
+
+.idioma_texto--primario .idioma_texto--primario-texto {
+  display: flex;
+  flex-direction: column;   
+}
+
+.idioma_texto--primario-texto p, .idioma_texto--primario-texto ul li, .idioma_texto--secundario p, .idioma_texto--secundario ul li, .idioma_texto--secundario h5 {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  margin-bottom: .5rem;
+  font-family: "Poppins", serif;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.idioma_texto--primario ul li, .idioma_texto--secundario ul li {
+  text-indent: 0;
+}
+.idioma_texto--primario-texto ul, .idioma_texto--secundario ul {
+  list-style-type: circle;
+  margin: 1rem 0 2rem 6rem;
+}
+
+.idioma_texto--primario-texto ul li strong, .idioma_texto--secundario h5, .idioma_texto--secundario ul li strong {
+  font-weight: 600;
+}
+
+.idioma_texto--primario p:first-of-type::first-letter {
+  font-size: 3em; 
+  font-weight: bold; 
+  float: left; 
+  margin-right: 5px;
+  line-height: 1;
+}
+
+.idioma_texto--primario-img {       
+    width: 100vw;       
+    border-radius: 3rem;  
+}
+.idioma_texto--primario-img-img {
+  width: 60rem;
+}
+
+.idioma_texto--linck {
+  text-align: center;
+  margin: 3rem 0;
+}

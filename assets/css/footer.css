@@ -61,7 +61,7 @@ footer {
    flex-direction: column;
    gap: 1rem;
    align-items: center;
-   background-color: #333131;
+   background-color: var(--bg-secundario);
    width: 35rem;
    height: auto;
    padding-top: 50px;
@@ -70,7 +70,7 @@ footer {
 
 .section_footer--subescribe label {
    font-size: 12px;
-   color: var(--bg-menu);
+   color: var(--bg-primario);
 }
 
 .section_footer--subescribe input {

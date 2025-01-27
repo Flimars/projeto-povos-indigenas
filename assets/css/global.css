@@ -7,18 +7,22 @@
     font-size: 16px; 
     font-size: 62.5%;
     --bg-menu: #39FF85;
-    --text-primaria: #000000;
-    --text-secundaria: #ffffff;
+    --bg-secundario: #13E061;
     --bg-btn: #009640;
+    --text-primaria: #000000;
+    --text-secundaria: #ffffff;   
     --text-btn: #FFED00;
+    --text-btn-secundario: #009640;
+
+  
 
 
 }
   
   body, button, input, label, h1, h2, h3, h5, h6, p{
-    font-family: "Poppins", serif;;
+    font-family: "Poppins", serif;
   }
 
   span {
-    font-family: Protest Revolution", serif;
+    font-family: "Protest Revolution", serif;
   }
