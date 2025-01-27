@@ -2,8 +2,10 @@
 @import url('./assets/css/global.css');
 
 @import url('./assets/css/header.css');
-@import url('./assets/css/home.css');
 @import url('./assets/css/footer.css');
+
+@import url('./assets/css/home.css');
 @import url('./assets/css/idioma.css');
+@import url('./assets/css/etnias.css');
 
 @import url('./assets/css/btn.css');
