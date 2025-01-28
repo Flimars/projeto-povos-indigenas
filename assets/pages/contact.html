@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../style.css">  
 </head>
 <body>
     <header>
@@ -25,8 +25,67 @@
             </div>
         </section>    
     </header>
-    <main style="background-color: black; width: 100%; height: 30rem;">
+    <main class="main">
+        <section class="section-contact">
+            <p>Entre em contato conosco. Estamos à disposição para atendê-lo.</p>
+            <p></p>
+            <form action="#" method="post" class="form">
+                <h1>CONTATO</h1>
+                <p>Preencha o formulário abaixo.</p>
+                <table>
+                    <!-- Nome -->
+                    <tr>
+                        <td>Nome:</td>
+                        <td><input type="text" name="nome" required></td>
+                    </tr>
 
+                    <!-- E-mail -->
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+
+                    <!-- Telefone -->
+                    <tr>
+                        <td>Fone:</td>
+                        <td><input type="tel" name="fone" required></td>
+                    </tr>
+
+                    <!-- Cidade -->
+                    <tr>
+                        <td>Cidade:</td>
+                        <td><input type="text" name="cidade" required></td>
+                    </tr>
+
+                    <!-- Assunto -->
+                    <tr>
+                        <td>Assunto:</td>
+                        <td>
+                            <select name="assunto" required>
+                                <option value="" selected>Selecione</option>
+                                <option value="duvida">Dúvida</option>
+                                <option value="informacao">Informação</option>
+                                <option value="reclamacao">Reclamação</option>
+                                <option value="sugestao">Sugestão</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <!-- Mensagem -->
+                    <tr>
+                        <td style="vertical-align: top;">Mensagem:</td>
+                        <td><textarea name="mensagem" rows="5" required></textarea></td>
+                    </tr>
+                    
+                    <!-- Botão Enviar -->
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button class="button-send" type="submit">Enviar</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
     </main>
     <footer>
         <section class="section_footer">
