@@ -35,8 +35,11 @@
     font-size: 3rem;
     font-family: "Protest Revolution", serif;
   }
-  .idioma_texto {    
+
+  .hidden {
     display: none;
+  }
+  .idioma_texto {    
     margin: 3rem 0;
     transition: all 0.3s ease;    
   }
