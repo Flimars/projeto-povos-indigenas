@@ -39,3 +39,19 @@
     font-style: italic;
 }
 
+.contatos .btn {
+    background: var(--bg-btn); 
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 210px; 
+    margin-top: 2rem;
+}
+
+.contato btn:hover {
+    background: var(--bg-menu); 
+}

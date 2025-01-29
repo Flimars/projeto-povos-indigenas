@@ -1,60 +1,45 @@
-/* Novo Modelo de CSS */
-/* Estilo Geral */
-main.main {
-    width: 60%; /* Centralizado ocupando o segundo terço */
-    background: #ffffff; /* Fundo branco */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
-    padding: 15px; /* Espaçamento interno */
-    margin: auto; /* Centralizado */
+.contatos {
     margin-top: 10rem;
-    overflow-y: auto; /* Rolagem para conteúdos grandes */
 }
 
-section.section-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.contato h1 {
+    font-size: 3.4rem;
+    font-family: "Protest Revolution", serif;
+    font-weight: 600;
+    margin-top: 2rem;
 }
 
-section.section-contact p {
+.contatos .texto {
+    font-size: 1.6rem;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    padding-bottom: 3rem;
+
+}
+
+
+.row h3 {
+    font-size: 2rem;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+
+.row p {
+    font-size: 1.5rem;
+    font-family: "Poppins", serif;
+    font-weight: 400;
     margin-bottom: 2rem;
-    line-height: 1.6;
-    font-size: 1.5rem;    
 }
 
-/* Estilo do Formulário */
-form.form {
-    width: 100%;
+.row p strong {
+    font-weight: 600;
 }
 
-form.form h1 {
-    font-size: 3.8rem;
-    /* color: #007BFF; Azul moderno */
-    margin-bottom: 1rem;
-}
 
-form.form p {
-    font-size: 1.5rem;
-    color: #555;
-    margin-bottom: 1.5rem;
-}
-
-form.form table {
-    width: 80%;
-    border-collapse: collapse;
-}
-
-form.form table td {
-    padding: 10px 5px;
-    font-size: 1.5rem;
-    text-align: left;
-}
-
-form.form table input,
-form.form table select,
-form.form table textarea {
+form.form input,
+form.form  select,
+form.form textarea {
     width: 80%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -63,26 +48,28 @@ form.form table textarea {
     box-sizing: border-box;
 }
 
-form.form table input:focus,
-form.form table select:focus,
-form.form table textarea:focus {
-    border-color: #007BFF;
+form .formulario input:focus,
+form .formulario select:focus,
+form .formulario textarea:focus {
+    border-color: var(--bg-menu);
     outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 5px var(--bg-menu);
 }
 
-form.form table button.button-send {
-    background: #007BFF; /* Azul moderno */
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 40px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-left: 210px; /* Ajusta o botão para o centro */
+.formulario label {
+    font-size: 1.5rem;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    margin: 1rem 0;
 }
 
-form.form table button.button-send:hover {
-    background: #0056b3; /* Azul mais escuro */
+.formulario input::placeholder {
+    color: #ccc;
+    opacity: .5;
 }
+
+
+.formulario select, .formulario input, .formulario textarea {
+    font-size: 1.3rem;
+}
+   
