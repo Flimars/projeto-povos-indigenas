@@ -1,0 +1,115 @@
+@media (max-width: 360px) {
+    .home_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home_container .image {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .home_container .image .test {
+        font-size: 1.8rem;
+    }
+
+    .home_container .image .btn {
+        font-size: 1.5rem;
+        padding: .81rem .8rem;
+    }
+
+   
+    .section_footer--container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .section_footer--social {
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .section_footer--social p {
+        text-align: center;
+    } 
+
+    .section_footer--text   {
+        width: 95%;
+        font-size: 1.3rem;
+        line-height: 1.3;
+        padding: 1rem;
+    }
+
+    .section_footer--subescribe {
+        width: 95%;
+        margin: 1rem;
+         padding-bottom: 1rem;   
+
+    }       
+}
+
+@media (min-width: 361px) and (max-width: 768px) {
+    .home_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .home_container .image .test {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+
+    .home_container .image .btn {
+        font-size: 1.5rem;
+        padding: 1rem ;
+    }
+
+    .home_container .image {
+        width: 100%;
+        height: auto;       
+        margin-bottom: 2rem;
+    }
+
+    .section_footer--container {
+        display: grid;
+        grid-template-columns: 25% 50% 25% ; 
+        gap: 1rem;
+    }
+
+    .section_footer--social {
+        width: 80%;
+    
+        padding-left: .5rem;
+    }
+
+    .section_footer .section_footer--social-item-icon{
+       width: 80%;       
+       gap: 1rem;
+    }
+ 
+    .section_footer--social p{
+       font-size: 1rem ;
+       text-align: center;
+    }
+    .section_footer .section_footer--text{
+       margin: 10px 0 10px 0;
+       width: 80%;
+    }
+    .section_footer .section_footer--text p{
+       text-align: justify;
+       margin-left: 5%;
+    }
+ 
+    .section_footer .section_footer--subescribe{
+       width: 80%;
+       margin-left: 5%;
+    }
+    .section_footer .section_footer--subescribe input{
+       width: 70%;
+    }
+ 
+    
+ }
+  
