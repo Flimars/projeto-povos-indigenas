@@ -17,6 +17,11 @@
 
 }
 
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .row h3 {
     font-size: 2rem;
@@ -73,3 +78,10 @@ form .formulario textarea:focus {
     font-size: 1.3rem;
 }
    
+@media (max-width: 360px) {
+
+    .form {
+        flex-direction: column;
+    }
+
+ }

@@ -2,6 +2,7 @@
     max-width: 124rem;
     display: flex;  
     flex-direction: column;
+    gap: 1rem;
   }
 
   h1 {
@@ -37,7 +38,7 @@
   }
 
   .hidden {
-    display: none;
+    display: none !important;
   }
   .idioma_texto {    
     margin: 3rem 0;
