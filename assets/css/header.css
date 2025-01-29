@@ -1,40 +1,62 @@
 .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--bg-menu);
-    padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-menu);
+  padding: 1rem 2rem;
 }
 
 .header .logo {
-    width: 12.37rem;
-    height: 8.3rem;
+  width: 12.37rem;
+  height: 8.3rem;
 }
 
 .header .menu {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header .menu ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
 }
 
 .header .menu ul li a {
-    color: var(--text-primaria);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 2rem;
+  color: var(--text-primaria);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para telas com largura menor que 768px (por exemplo, smartphones) */
+@media (max-width: 768px) {
+  .header {
     display: flex;
-    align-items: center;
+  }
+
+  .header .logo img {
+    height: 50px;
+  }
+  .header .menu ul{
+    display: inline;
+  }
+
+  .header .menu ul li{
+    margin: 5px;
+  }
+  .header .menu ul li a{
+    font-size: 12px;
+  }
+
 }
