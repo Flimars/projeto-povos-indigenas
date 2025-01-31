@@ -81,6 +81,10 @@
         text-align: center;
     }
 
+    .idioma_texto .idioma_texto--secundario .text_extra {
+        margin: 0;
+    }
+
     .idioma_texto .idioma_texto--linck a button {
         font-size: 1.8rem;
         margin-top: 1rem;

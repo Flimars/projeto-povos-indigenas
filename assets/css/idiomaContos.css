@@ -67,6 +67,31 @@
   text-align: justify;
 }
 
+.idioma_texto--primario .karib, .idioma_texto--primario .guajajara, .idioma_texto--primario .satere, .idioma_texto--primario .makuxi {
+  gap: 2rem;
+}
+
+.idioma_texto--secundario h5 {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.idioma_texto--secundario .text_extra {
+  margin: 2rem 3rem;
+  font-size: 1.7rem;
+}
+
+.idioma_texto--primario p strong {
+  font-weight: 600;
+}
+
+.idioma_texto--primario h5 {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+  font-weight: 600;
+}
+
 .idioma_texto--primario ul li, .idioma_texto--secundario ul li {
   text-indent: 0;
 }
@@ -88,7 +113,7 @@
 }
 
 .idioma_texto--primario-img {       
-    width: 100vw;       
+    width: 100vw;      
     border-radius: 3rem;  
 }
 
