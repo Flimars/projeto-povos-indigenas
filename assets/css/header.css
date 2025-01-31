@@ -2,7 +2,7 @@
   width: 100vw;
   background-color: var(--bg-menu);
   position: fixed;
-   top: 0;
+  top: 0;
 }
 
 .menu ul {

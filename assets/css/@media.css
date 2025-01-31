@@ -1,7 +1,21 @@
 @media (max-width: 360px) {
     .home_container {
+        display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .home_container .info h1 {
+        font-size: 3rem;
+    }
+
+    .home_container .info h1 span {
+        font-size: 3.5rem;
+    }
+
+    .home_container .info p {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
     }
 
     .home_container .image {
@@ -85,6 +99,7 @@
 
     .section_footer--social p {
         text-align: center;
+        font-size: 1.3rem;
     } 
 
     .section_footer--text   {
@@ -103,11 +118,31 @@
     }       
 }
 
-@media (min-width: 361px) and (max-width: 768px) {
+@media (min-width: 361px) and (max-width: 865px) {
     .home_container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        display: flex;
+        flex-direction: column;
     }
+
+    .home_container .info h1 {
+        font-size: 3rem;
+    }
+
+    .home_container .info h1 span {
+        font-size: 3.5rem;                
+    }
+
+    .home_container .info p {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .home_container .image {
+        width: 100%;
+        height: 40rem;       
+        margin-bottom: 2rem;
+    }
+
 
     .home_container .image .test {
         text-align: center;
@@ -119,12 +154,7 @@
         padding: 1rem ;
     }
 
-    .home_container .image {
-        width: 100%;
-        height: auto;       
-        margin-bottom: 2rem;
-    }
-
+ 
     .main {
         margin-top: 10rem;
         margin-bottom: 2rem;
