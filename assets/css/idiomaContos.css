@@ -2,7 +2,8 @@
     max-width: 124rem;
     display: flex;  
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
+    margin-bottom: 2rem;
   }
 
   h1 {
@@ -50,7 +51,7 @@
     display: flex;
     padding-top: 2rem;
     gap: 2rem;
-    margin: 0 3rem;
+    margin: 0;
   }
 
 .idioma_texto--primario .idioma_texto--primario-texto {
@@ -65,6 +66,31 @@
   font-family: "Poppins", serif;
   text-indent: 2rem;
   text-align: justify;
+}
+
+.idioma_texto--primario .karib, .idioma_texto--primario .guajajara, .idioma_texto--primario .satere, .idioma_texto--primario .makuxi {
+  gap: 2rem;
+}
+
+.idioma_texto--secundario h5 {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.idioma_texto--secundario .text_extra {
+  margin: 2rem 3rem;
+  font-size: 1.7rem;
+}
+
+.idioma_texto--primario p strong {
+  font-weight: 600;
+}
+
+.idioma_texto--primario h5 {
+  font-size: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+  font-weight: 600;
 }
 
 .idioma_texto--primario ul li, .idioma_texto--secundario ul li {
@@ -88,7 +114,7 @@
 }
 
 .idioma_texto--primario-img {       
-    width: 100vw;       
+    width: 100vw;      
     border-radius: 3rem;  
 }
 

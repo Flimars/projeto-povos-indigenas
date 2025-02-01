@@ -7,8 +7,10 @@
 }
 
 .home_container {
-    display: flex;
-    gap: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem; 
+    margin-bottom: 2rem;
 }
 
 .home-container .info {
@@ -29,16 +31,17 @@
 }
 
 .home_container .info p {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 3.6rem;
+    text-align: justify;
 }
 
 .image {
-    background-image: url('../img/image2.svg');
+    background-image: url('../img/image_de_capa.svg');
     background-size: cover;
     background-position: center;
-    width: 300%;  
+    width: 100%;  
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -52,6 +55,7 @@
     font-weight: 600;
     line-height: 3.6rem;
     font-style: italic;
+    text-align: center;
     color: var(--text-secundaria);
     margin-bottom: 3rem;
     text-shadow: 
