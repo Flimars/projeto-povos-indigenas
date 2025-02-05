@@ -25,7 +25,7 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 ### **Metodologia de Trabalho**  
 **Metodologia Ágil**: Será adotado o **Scrum**, com sprints curtas e reuniões diárias (Daily Scrum) para acompanhar o progresso e ajustar o planejamento.  
 - **Ferramenta de Gerenciamento**: Utilizar o Trello para acompanhar as tarefas, priorizar itens no backlog e monitorar o avanço do trabalho.  
-- **Tecnologias Utilizadas**: 
+- **Tecnologias Utilizadas**: HTML, CSS, Bootstrap e JS. 
 - **Cronograma**: O projeto será dividido em três grandes etapas, com entregas incrementais para garantir qualidade e cumprimento dos prazos.  
 
 ---
@@ -41,21 +41,20 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 ---
 
 ### **Divisão de Responsabilidades**  
+
 1. **Líder de Squad**: Gerencia o time, organiza reuniões e garante que o cronograma seja seguido.  
    - Nome: [Flávio de Medeiros Lima]  
 
 2. **Desenvolvedor Design UX/UI**: Responsável por criar o layout e prototipação do projeto.  
    - Nome: [Denilton da Silva e Silva]  
  - 
-3. **Desenvolvedores Front-end** (2 membros): Criam o site responsivo, implementam navegação e seguem boas práticas de HTML, CSS e Bootstrap.  
+3. **Desenvolvedores Front-end**: Criam o site responsivo, implementam navegação e seguem boas práticas de HTML, CSS e Bootstrap.  
    - Nome: [Fabio Andre Zatta, Damiana Costa da Silva, e Julio Henrique Marta de Lima ]  
    - 
 4. **Responsável pelo Banco de Dados**: Modelagem conceitual e lógica, além de criar e testar o script SQL.  
-   - Nome: [Janice Tavares Cunha e Katiane Santana Abreu Lima ]  
+   - Nome: [Janice Tavares Cunha e Katiane Santana Abreu Lima ] 
 
-
-
-6. **Documentação e Apresentação**: Organiza a documentação do projeto (README.md, pitch e bastidores) e prepara o PPT para a apresentação.  
+5. **Documentação e Apresentação**: Organiza a documentação do projeto (README.md, pitch e bastidores) e prepara o PPT para a apresentação.  
    - Nome: [Todos]  
 
 ---
