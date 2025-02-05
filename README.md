@@ -1,4 +1,4 @@
-# projeto-povos-indigenas - SQUAD - 25
+# Projeto Povos Indígenas - SQUAD - 25 
 Um sistema web que reúna e disponibilize materiais educativos sobre as culturas indígenas brasileiras. 
 
 
