@@ -3,7 +3,8 @@
     flex-direction: column;
     padding: 0 3rem;
     overflow-x: hidden;
-    margin-top: 13rem;    
+    margin-top: 13rem; 
+    flex-grow: 1;  /*empurrando o rodapé para baixo*/ 
 }
 
 .home_container {
