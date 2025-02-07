@@ -1,17 +1,15 @@
 function showContent(id) {
-    // Esconde todos os conteúdos
     document.querySelectorAll('.content-section').forEach(section => {
-        section.classList.add('d-none'); // Usa Bootstrap para ocultar
-        section.classList.remove('show'); // Remove classe de animação, se aplicável
+        section.classList.add('d-none'); 
+        section.classList.remove('show'); 
     });
 
-    // Exibe o conteúdo selecionado com animação
     const selectedSection = document.getElementById(id);
     if (selectedSection) {
-        selectedSection.classList.remove('d-none'); // Torna visível imediatamente
+        selectedSection.classList.remove('d-none'); 
         setTimeout(() => {
-            selectedSection.classList.add('show'); // Adiciona a classe de animação
-        }, 10); // Delay curto para garantir que a transição funcione
+            selectedSection.classList.add('show'); 
+        }, 10); 
     }
 }
 
