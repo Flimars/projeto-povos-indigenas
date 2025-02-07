@@ -25,11 +25,11 @@
     text-decoration: none;
 }
 
-.idioma_texto  a {
+.content .idioma_texto--linck  a {
     text-decoration: none;   
 }
 
-.idioma_texto a button {
+.content .idioma_texto--linck a button {
     border:  none;
     background-color: transparent;
     color: var(--text-btn-secundario);

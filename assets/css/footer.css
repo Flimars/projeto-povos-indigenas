@@ -1,5 +1,7 @@
 footer {
-    background-color: var(--bg-menu);     
+    background-color: var(--bg-menu);
+    display: flex;
+    margin-top: auto;
 }
 
 .section_footer {

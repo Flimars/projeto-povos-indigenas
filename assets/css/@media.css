@@ -33,39 +33,66 @@
         padding: .81rem .8rem;
     }
     
-    .main {
-       margin-top: 10rem; 
-       margin-bottom: 2rem;
-    }
+   
     .idioma_container  h1 {
         font-size: 2.5rem;
     }
 
-    .idioma_container--menu .toggle-button  #toggle-icon {
-        width: 1.5rem;
-        height: 1.5rem;
+    .main-layout {
+        grid-template-columns: 40% 60%;
     }
+
+    .sidebar ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .sidebar ul li .nav-link {
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+
+    .content .content-section .idioma_texto--primario  {
+        flex-direction: column;
+        margin: 0;
+        margin-bottom:.5rem;
+        gap: 1rem;
+    }
+
+    .content .content-section .idioma_texto--primario-img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 1rem;
+        margin: auto;
+    }
+
+    .content .idioma_texto--primario .idioma_texto--primario-img-img {
+        width: 100%;
+    }   
 
     .idioma_container--menu h3 {
         font-size: 1.8rem;
     }
 
-    .idioma_texto .idioma_texto--primario {
+    .idioma_texto--primario {
         flex-direction: column;
         margin: 0;
         margin-bottom: .5rem;
     }
 
-    .idioma_texto .idioma_texto--primario-texto p, .idioma_texto .idioma_texto--secundario p {
+     .idioma_texto--primario-texto p, .idioma_texto .idioma_texto--secundario p {
         font-size: 1.3rem;        
     }
 
-    .idioma_texto .idioma_texto--primario-texto ul, .idioma_texto .idioma_texto--secundario ul {
+    .idioma_texto--primario-texto ul, .idioma_texto .idioma_texto--secundario ul {
         padding-left: 3rem;
         margin: 0;
     }
 
-    .idioma_texto .idioma_texto--primario-texto ul li, .idioma_texto .idioma_texto--secundario ul li {
+    .idioma_texto--primario-texto ul li, .idioma_texto .idioma_texto--secundario ul li {
         font-size: 1.2rem;
         margin: .5rem;
     }
@@ -81,11 +108,12 @@
         text-align: center;
     }
 
-    .idioma_texto .idioma_texto--secundario .text_extra {
-        margin: 0;
+    .content .idioma_texto--linck {
+        display: flex;
+        flex-direction: column;
     }
 
-    .idioma_texto .idioma_texto--linck a button {
+    .content .idioma_texto--linck a button {
         font-size: 1.8rem;
         margin-top: 1rem;
     }
@@ -158,58 +186,83 @@
         padding: 1rem ;
     }
 
- 
-    .main {
-        margin-top: 10rem;
-        margin-bottom: 2rem;
+    .main-layout {
+        grid-template-columns: 30% 70%;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .sidebar ul li .nav-link {
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+    
+    .content .content-section .idioma_texto--primario  {
+        flex-direction: column;
+        margin: 0;
+        margin-bottom:.5rem;
+        gap: 1rem;
+    }
+
+    .content .content-section .idioma_texto--primario-img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 1rem;
+        margin: auto;
+    }
+
+    .content .idioma_texto--primario .idioma_texto--primario-img-img {
+        width: 100%;
     }
 
     .idioma_container  h1 {
         font-size: 3.2rem;
     }
 
-    .idioma_container--menu .toggle-button  #toggle-icon {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
+  
     .idioma_container--menu h3 {
         font-size: 2.3rem;
     }
 
-    .idioma_texto .idioma_texto--primario, .idioma_texto .idioma_texto--secundario {
+    .idioma_texto--primario, .idioma_texto .idioma_texto--secundario {
         flex-direction: column;
         margin: 0;
         margin-bottom: .5rem;
         padding-right: 2rem;
     }
 
-    .idioma_texto .idioma_texto--primario-texto p, .idioma_texto .idioma_texto--secundario p {
+    .idioma_texto--primario-texto p, .idioma_texto .idioma_texto--secundario p {
         font-size: 1.5rem;        
     }
 
-    .idioma_texto .idioma_texto--primario-texto ul, .idioma_texto .idioma_texto--secundario ul {
+    .idioma_texto--primario-texto ul, .idioma_texto .idioma_texto--secundario ul {
         padding-left: 3rem;
         margin: 0;
     }
 
-    .idioma_texto .idioma_texto--primario-texto ul li, .idioma_texto .idioma_texto--secundario ul li {
+    .idioma_texto--primario-texto ul li, .idioma_texto .idioma_texto--secundario ul li {
         font-size: 1.5rem;
         margin: .5rem;
     }
 
-    .idioma_texto .idioma_texto--primario-img-img {
+    .idioma_texto--primario-img-img {
         width: 90%;
         height: auto;
         margin-bottom: 1rem;
     }
 
-    .idioma_texto .idioma_texto--secundario  h5 {
+    .idioma_texto--secundario  h5 {
         font-size: 1.7rem;
         text-align: center;
     }
 
-    .idioma_texto .idioma_texto--linck a button {
+    .idioma_texto--linck a button {
         font-size: 2rem;
         margin-top: 1rem;
     }
