@@ -1,57 +1,83 @@
-.idioma_container {
-    max-width: 124rem;
+body {
+    padding-top: 6.6rem; 
+}
+.main-layout {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    min-height: calc(100vh - 6.6rem); 
+    overflow-x: hidden;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;   
+    background-color: #39FF85; 
+    padding: 2rem;
+}
+
+.sidebar ul {
     display: flex;  
     flex-direction: column;
-    gap: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  h1 {
-    font-size: 3.8rem;
-    font-weight: 400;
-    text-align: center;
-    padding-bottom: 2rem;
-    font-family: "Protest Revolution", serif;
-  }
-  
-  .idioma_container--menu{
-    display: flex;
-    flex-direction: row;
     align-items: center;
-  }
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
 
-  .idioma_container--menu .toggle-button #toggle-icon {
-    width: 3rem;
-    height: 3rem;
-    margin-right: 2rem;
-  }
+.sidebar ul li {
+    margin-bottom: 2rem;    
+}
 
-  #toggle-button {
+.sidebar ul li .nav-link {
     background: none;
     border: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
     cursor: pointer;
-  }
-  
-  h3 {
+}
+
+.sidebar ul li .nav-link:hover, 
+.sidebar ul li .nav-link:active, 
+.sidebar ul li .nav-link:focus {    
+    color: var(--text-terciario);
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #F4F2EE;
+}
+
+.content h3 {
+    color: var(--text-terciario);
+}
+
+.content .idioma_texto--linck {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
     color: var(--text-primaria);
     font-size: 3rem;
     font-family: "Protest Revolution", serif;
   }
 
-  .hidden {
-    display: none !important;
-  }
-  .idioma_texto {    
-    margin: 3rem 0;
-    transition: all 0.3s ease;    
-  }
 
   .idioma_texto--primario {
-    flex: 1;
     display: flex;
     padding-top: 2rem;
     gap: 2rem;
-    margin: 0;
+    text-align: center;
+    
+  }
+
+  .idioma_texto--primario p {
+    padding-top: 1rem;
   }
 
 .idioma_texto--primario .idioma_texto--primario-texto {
@@ -77,10 +103,6 @@
   text-align: center;
 }
 
-.idioma_texto--secundario .text_extra {
-  margin: 2rem 3rem;
-  font-size: 1.7rem;
-}
 
 .idioma_texto--primario p strong {
   font-weight: 600;
@@ -129,5 +151,9 @@
 .idioma_texto--linck {
   text-align: center;
   margin: 3rem 0;
+}
+
+.idioma_texto--secundario {
+  padding-top: 1rem;
 }
 

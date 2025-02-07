@@ -1,5 +1,0 @@
-body{
-    display: flex; /*Contêiner flexível*/
-    flex-direction: column; /*Elementos ficarão um embaixo do outro*/
-    min-height: 100vh; /*Garante que o body tenha no mínimo 100% da altura da tela*/
-}

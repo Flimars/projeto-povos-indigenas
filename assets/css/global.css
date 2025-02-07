@@ -9,14 +9,12 @@
     --bg-menu: #39FF85;
     --bg-secundario: #13E061;
     --bg-btn: #009640;
+    --bg-body: #F4F2EE;
     --text-primaria: #000000;
     --text-secundaria: #ffffff;   
     --text-btn: #FFED00;
     --text-btn-secundario: #009640;
-
-  
-
-
+    --text-terciario: #9D5957;
 }
   
   body, button, input, label, h1, h2, h3, h5, h6, p{
@@ -26,3 +24,10 @@
   span {
     font-family: "Protest Revolution", serif;
   }
+
+  body{
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    background-color: var(--bg-body);
+}

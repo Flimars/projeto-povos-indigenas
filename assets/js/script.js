@@ -1,24 +1,17 @@
-const toggleButtons = document.querySelectorAll('.toggle-button');
-
-toggleButtons.forEach((button) => {
-    button.addEventListener('click', function() {
-        const textSection = this.closest('section').querySelector('.idioma_texto');
-        const toggleIcon = this.querySelector('.toggle-icon');
-
-        console.log('Botão clicado:', button);
-        console.log('Seção de texto:', textSection);
-        console.log('Ícone:', toggleIcon);
-
-        if (textSection.classList.contains('hidden')) {
-            textSection.classList.remove('hidden');
-            toggleIcon.src = '../icon/SetaBaixo.svg';
-            toggleIcon.alt = 'Seta para baixo';
-            console.log('Texto mostrado e ícone alterado para baixo');
-        } else {
-            textSection.classList.add('hidden');
-            toggleIcon.src = '../icon/SetaLado.svg';
-            toggleIcon.alt = 'Seta para o lado';
-            console.log('Texto escondido e ícone alterado para o lado');
-        }
+function showContent(id) {
+    // Esconde todos os conteúdos
+    document.querySelectorAll('.content-section').forEach(section => {
+        section.classList.add('d-none'); // Usa Bootstrap para ocultar
+        section.classList.remove('show'); // Remove classe de animação, se aplicável
     });
-});
+
+    // Exibe o conteúdo selecionado com animação
+    const selectedSection = document.getElementById(id);
+    if (selectedSection) {
+        selectedSection.classList.remove('d-none'); // Torna visível imediatamente
+        setTimeout(() => {
+            selectedSection.classList.add('show'); // Adiciona a classe de animação
+        }, 10); // Delay curto para garantir que a transição funcione
+    }
+}
+
