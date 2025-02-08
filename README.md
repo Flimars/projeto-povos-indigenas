@@ -1,3 +1,9 @@
+<div align="center">
+
+![Página Principal](./assets/img/inicio.png)
+
+</div>
+
 # Projeto Povos Indígenas - SQUAD - 25 
 Um sistema web que reúna e disponibilize materiais educativos sobre as culturas indígenas brasileiras. 
 
@@ -13,13 +19,28 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 ---
 
 ### **Equipe que atuou no projeto**: 
-  * Damiana Costa da Silva
-  * Denilton da Silva e Silva
-  * Fabio Andre Zatta
-  * Flávio de Medeiros Lima
-  * Janine Tavares Cunha
-  * Julio Henrique Marta de Lima
-  * Katiane Santana Abreu Lima
+  * Damiana Costa da Silva - (1)
+      - [Linkedin]()
+      - [GitHub](https://github.com/damiana2703)
+  * Denilton da Silva e Silva - (2)
+      - [Linkedin](https://www.linkedin.com/in/denilton-d-87835b136/)
+      - [GitHub](https://github.com/deniltonz)
+  * Fabio Andre Zatta - (3)
+      - [Linkedin](https://www.linkedin.com/in/fabiozatta-dweb/)
+      - [GitHub](https://github.com/fisiofaz)
+  * Flávio de Medeiros Lima - (4)
+      - [Linkedin](https://www.linkedin.com/in/flaviotheprogrammer/)
+      - [GitHub](https://github.com/Flimars)
+  * Janine Tavares Cunha - (5)
+      - [Linkedin](https://www.linkedin.com/in/janine-cunha-74b456307/)
+      - [GitHub](https://github.com/Janine-Nine)
+  * Julio Henrique Marta de Lima - (6)
+      - [Linkedin]()
+      - [GitHub](https://github.com/MartaCoder)
+  * Katiane Santana Abreu Lima - (7)
+      - [Linkedin](https://www.linkedin.com/in/katiane-abreu-52139933/)
+      - [GitHub](https://github.com/kabreu-rs)
+  
   ---
 
 ### **Metodologia de Trabalho**  
@@ -48,7 +69,7 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 2. **Desenvolvedor Design UX/UI**: Responsável por criar o layout e prototipação do projeto.  
    - Nome: [Denilton da Silva e Silva]  
  - 
-3. **Desenvolvedores Front-end**: Criam o site responsivo, implementam navegação e seguem boas práticas de HTML, CSS e Bootstrap.  
+3. **Desenvolvedores Front-end**: Criam o site responsivo, implementam navegação e seguem boas práticas de HTML, CSS,  Bootstrap e JS.  
    - Nome: [Fabio Andre Zatta, Damiana Costa da Silva, e Julio Henrique Marta de Lima ]  
    - 
 4. **Responsável pelo Banco de Dados**: Modelagem conceitual e lógica, além de criar e testar o script SQL.  
@@ -61,28 +82,32 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 
 ### **Plano Detalhado de Tarefas e Alocação**  
 
-| **Tarefa**                                     | **Responsável**       | **Prazo**        |
-|------------------------------------------------|------------------------|-----------------|
-| Estudo do tema e definição do problema         | Todos                 | 15-16 jan        |
-| Planejamento inicial e brainstorming           | Todos                 | 17-18 jan        |
-| Modelagem do banco de dados                    | Banco de Dados (3)    | 19-21 jan        |
-| Protótipo do front-end                         | Front-end (4 e 5)     | 19-21 jan        |
-| Criação do banco de dados                      | Banco de Dados (3)    | 22 jan           |
-| Desenvolvimento do front-end (HTML, CSS e JS)  | Front-end (4 e 5)     | 22-25 jan        |
-| Testes e ajustes                               | QA (6), Todos | 03 fev                   |
-| Criação de documentação (README, etc.)         | Documentação (7)      | 05 fev           |
-| Preparação e ensaio da apresentação            | Apreentação(A Definir), Documentação (Flávio) | 05-07 fev |
+| **Tarefa**                                     | **Responsável**          | **Prazo**        |
+|------------------------------------------------|-------------------- ------|-----------------|
+| Estudo do tema e definição do problema         | Todos                    | 15-16 jan        |
+| Planejamento inicial e brainstorming           | Todos                    | 17-18 jan        |
+| Modelagem do banco de dados                    | Banco de Dados (5, 7)    | 19-21 jan        |
+| Protótipo do front-end                         | Dedign UX/UI (2)         | 19-21 jan        |
+| Criação do banco de dados                      | Banco de Dados (5, 7)    | 22 jan           |
+| Desenvolvimento do front-end (HTML, CSS e JS)  | Front-end (1, 3, 6)      | 22-25 jan        |
+| Testes e ajustes                               | QA (1, 6)                | 03 fev           |
+| Criação de documentação (README, etc.)         | Documentação (4)         | 05 fev           |
+| Gestão e Apoio                                 | Facilitador (4)          | 05-07 fev        |
+| Preparação e ensaio da apresentação            | Apreentação(4)           | 08-11 fev        |
+
 
 ---
 
-### **Ferramentas de Suporte**  
+### **Ferramentas de Suporte** 
+ 
 - **Gerenciamento do Projeto**: Trello  
 - **Prototipagem**: Figma 
 - **Desenvolvimento**: Visual Studio Code 
 - **Versionamento de Código**: Git
-- **Repositório Remoto**: GitHub 
-- **Modelagem de Banco de Dados**: BRModelo e Workbench MySQL 
-- **Apresentação**: PowerPoint ou Google Slides  
+- **Repositório Remoto**: GitHub
+- **Modelagem de Banco de Dados**: BRModelo  
+- **Apresentação**: PowerPoint ou Google Slides
+- **Deployment**: www.netlify.com  
 
 ---
 
@@ -105,6 +130,6 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 
 **8. TAREFA:** Documentação ou README.md - Flávio de Medeiros Lima.
 
-**9. TAREFA:** Entregar e Apresentação - Nome A Definir
+**9. TAREFA:** Entregar e Apresentação - Flávio de Medeiros Lima.
 
 ---
