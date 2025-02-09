@@ -105,8 +105,8 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 - **Desenvolvimento**: Visual Studio Code 
 - **Versionamento de Código**: Git
 - **Repositório Remoto**: GitHub
-- **Modelagem de Banco de Dados**: BRModelo  
-- **Apresentação**: PowerPoint ou Google Slides
+- **Modelagem de Banco de Dados**: BRModelo ou Diagrama Dia  
+- **Apresentação**: Gamma.app
 - **Deployment**: www.netlify.com  
 
 ---
