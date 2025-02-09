@@ -82,18 +82,18 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 
 ### **Plano Detalhado de Tarefas e Alocação**  
 
-| **Tarefa**                                     | **Responsável**          | **Prazo**        |
-|------------------------------------------------|-------------------- ------|-----------------|
-| Estudo do tema e definição do problema         | Todos                    | 15-16 jan        |
-| Planejamento inicial e brainstorming           | Todos                    | 17-18 jan        |
-| Modelagem do banco de dados                    | Banco de Dados (5, 7)    | 19-21 jan        |
-| Protótipo do front-end                         | Dedign UX/UI (2)         | 19-21 jan        |
-| Criação do banco de dados                      | Banco de Dados (5, 7)    | 22 jan           |
-| Desenvolvimento do front-end (HTML, CSS e JS)  | Front-end (1, 3, 6)      | 22-25 jan        |
-| Testes e ajustes                               | QA (1, 6)                | 03 fev           |
-| Criação de documentação (README, etc.)         | Documentação (4)         | 05 fev           |
-| Gestão e Apoio                                 | Facilitador (4)          | 05-07 fev        |
-| Preparação e ensaio da apresentação            | Apreentação(4)           | 08-11 fev        |
+| **Tarefa**                                       | **Responsável**          | **Prazo**        |
+|--------------------------------------------------|--------------------------|------------------|
+| Estudo do tema e definição do problema           | Todos                    | 15-16 jan        |
+| Planejamento inicial e brainstorming             | Todos                    | 17-18 jan        |
+| Modelagem do banco de dados                      | Banco de Dados (5, 7)    | 19-21 jan        |
+| Protótipo do front-end                           | Dedign UX/UI (2)         | 19-21 jan        |
+| Criação do banco de dados                        | Banco de Dados (5, 7)    | 22 jan           |
+| Desenvolvimento do front-end                     | Front-end (1, 3, 6)      | 22-25 jan        |
+| Testes e ajustes                                 | QA (1, 6)                | 03 fev           |
+| Criação de documentação (README, etc.)           | Documentação (4)         | 05 fev           |
+| Gestão e Apoio                                   | Facilitador (4)          | 05-07 fev        |
+| Preparação e ensaio da apresentação              | Apreentação(4)           | 08-11 fev        |
 
 
 ---
