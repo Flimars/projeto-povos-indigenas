@@ -73,7 +73,7 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
    - Nome: [Fabio Andre Zatta, Damiana Costa da Silva, e Julio Henrique Marta de Lima ]  
    - 
 4. **Responsável pelo Banco de Dados**: Modelagem conceitual e lógica, além de criar e testar o script SQL.  
-   - Nome: [Janice Tavares Cunha e Katiane Santana Abreu Lima ] 
+   - Nome: [Janine Tavares Cunha e Katiane Santana Abreu Lima ] 
 
 5. **Documentação e Apresentação**: Organiza a documentação do projeto (README.md, pitch e bastidores) e prepara o PPT para a apresentação.  
    - Nome: [Todos]  
@@ -124,7 +124,7 @@ Um sistema web que reúna e disponibilize materiais educativos sobre as culturas
 
 **5. TAREFA:** Aprovar designs - TODOS REUNIÃO.
 
-**6. TAREFA:** Banco de Dados, Modelos Conceitual, Lógico e Script SQL - Janice Tavares Cunha e Katiane Santana Abreu Lima.
+**6. TAREFA:** Banco de Dados, Modelos Conceitual, Lógico e Script SQL - Janine Tavares Cunha e Katiane Santana Abreu Lima.
 
 **7. TAREFA:** Testar Site e suas funcionalidades - Damiana Costa da Silva, e Julio Henrique Marta de Lima.
 
