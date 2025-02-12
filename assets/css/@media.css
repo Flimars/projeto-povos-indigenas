@@ -88,8 +88,7 @@
     }
 
     .idioma_texto--primario-texto ul, .idioma_texto--secundario ul {
-        padding-left: 3rem;
-        margin: 0;
+        margin-left: 2rem;
     }
 
     .idioma_texto--primario-texto ul li, .idioma_texto .idioma_texto--secundario ul li {
@@ -121,6 +120,10 @@
     .align-items-center {
         display: flex;
         gap: 2rem;
+    }
+
+    .footer {
+        padding-top: 3rem;
     }
     
     .section_footer--social {
@@ -242,8 +245,7 @@
     }
 
     .idioma_texto--primario-texto ul, .idioma_texto .idioma_texto--secundario ul {
-        padding-left: 3rem;
-        margin: 0;
+        margin-left: 2rem;
     }
 
     .idioma_texto--primario-texto ul li, .idioma_texto .idioma_texto--secundario ul li {
@@ -270,6 +272,10 @@
     .idioma_texto--linck a button {
         font-size: 2rem;
         margin-top: 1rem;
+    }
+
+    footer {
+        padding-top: 3rem;
     }
 
     .section_footer--container {
