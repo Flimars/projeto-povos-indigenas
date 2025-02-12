@@ -87,9 +87,8 @@
         font-size: 1.3rem;        
     }
 
-    .idioma_texto--primario-texto ul, .idioma_texto .idioma_texto--secundario ul {
-        padding-left: 3rem;
-        margin: 0;
+    .idioma_texto--primario-texto ul, .idioma_texto--secundario ul {
+        margin-left: 2rem;
     }
 
     .idioma_texto--primario-texto ul li, .idioma_texto .idioma_texto--secundario ul li {
@@ -116,11 +115,15 @@
     .content .idioma_texto--linck a button {
         font-size: 1.8rem;
         margin-top: 1rem;
-    }
-     
-    .section_footer--container {
+    } 
+
+    .align-items-center {
         display: flex;
-        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .footer {
+        padding-top: 3rem;
     }
     
     .section_footer--social {
@@ -242,8 +245,7 @@
     }
 
     .idioma_texto--primario-texto ul, .idioma_texto .idioma_texto--secundario ul {
-        padding-left: 3rem;
-        margin: 0;
+        margin-left: 2rem;
     }
 
     .idioma_texto--primario-texto ul li, .idioma_texto .idioma_texto--secundario ul li {
@@ -262,15 +264,29 @@
         text-align: center;
     }
 
+    .content .idioma_texto--linck {
+        display: flex;
+        flex-direction: column;
+    }
+
     .idioma_texto--linck a button {
         font-size: 2rem;
         margin-top: 1rem;
+    }
+
+    footer {
+        padding-top: 3rem;
     }
 
     .section_footer--container {
         display: grid;
         grid-template-columns: 25% 40% 35% ; 
         gap: 1rem;
+    }
+
+    .align-items-center {
+        display: flex;
+        gap: 2rem;
     }
 
     .section_footer--social {
@@ -283,10 +299,7 @@
        gap: .5rem;
     }
  
-    .section_footer--social p{
-       font-size: 1rem ;
-       text-align: center;
-    }
+    
     .section_footer .section_footer--text{
        margin: 10px 0 10px 0;
        width: 80%;

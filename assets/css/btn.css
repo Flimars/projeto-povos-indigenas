@@ -11,19 +11,6 @@
     text-transform: uppercase;    
 }
 
-.section_footer--subescribe .btn {
-    background-color: var(--bg-btn);
-    color: var(--text-btn-dark);
-    border: none;
-    border-radius: 2rem;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    font-weight: 800;
-    font-style: italic;
-    cursor: pointer;
-    text-transform: uppercase;
-    text-decoration: none;
-}
 
 .content .idioma_texto--linck  a {
     text-decoration: none;   
